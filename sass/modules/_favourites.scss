@@ -1,20 +1,28 @@
 //Info-Card:
-.user-section{
+.favourites-cards{
+    width: 300px;
+    height: 500px;
     background: white;
-    max-width: 300px;
-    min-height: 550px;
-    margin: 50px auto;
-    border-radius: 12px;
-    box-sizing: border-box;
-    padding: ($gutters * 2);
-    text-align: center;
-}
-
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 11px;
+    line-height: 5px;
+    
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 10%;
+    align-items: center;
+    margin-top: 20px;
     border: 3px solid rgba(163, 163, 187, 0.986);
     display: inline-block;
 }
+
+h2{
+    font-size: 12px;
+}
+}
+
+

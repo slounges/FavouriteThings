@@ -63,3 +63,18 @@ div.dot1 {
     top: 15px;
     left: 50px;
 }
+
+
+.btn{
+    text-decoration: none;
+    background-color: gainsboro;
+    color: white;
+    border-radius: 10%;
+    padding: 5px;
+
+  
+}  
+.btn:hover{
+        background-color: beige;
+        color: black;
+    }

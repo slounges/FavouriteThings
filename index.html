@@ -13,14 +13,16 @@
 <body>
 
     <div class="landing">
-        <h1>Shannon's Favourite Things</h1>
-        <p>Here, I display my three favourite things in a web app designed to help practice displaying database content on a page.</p>
-        <a href="#about" class="btn">Welcome</a>
+        <h1>Shannon's Favourite Things App</h1>
+        <p>Welcome to the FAVTHINGS app brought to you by Shannon.</p>
+        <a href="#about" class="btn">ok cool let's go!</a>
     </div>
 
+<!--Flip cards to reveal Title + Description on Fav Things-->
 
     <section id="about">
     <div class="wrapper">
+            <main>
             <div class= "title-card">
                 <div class="dot1"></div>
                 <div class="dot2"></div>
@@ -29,26 +31,28 @@
                         <span>WWW.MYFAVTHINGS.COM</span>
                     </div>
             </div>
-        
-            <section class="user-section">
+            </main>
+            <div class="favourites-cards">
+                <section class="user-section">
                 <!-- user-template copies get rendered here -->
-            </section>
+                </section>
+                
+
+                    <template id="user-template">
+                        <div class="user">
+                                <h1 class="hidden"></h1>
+                                <img src="" alt="favourites">
+                                <h2 class="user-title"></h2>
+                                <p class="user-description"></p>
+                                <p class="user-reccomend"></p>
+                        </div> 
+                    </template>
+            </div>      
 
 
-            <template id="user-template">
-            <div class="user">
-                <h1 class="hidden"></h1>
-                <img src="" alt="favourites">
-                <h2 class="user-title"></h2>
-                <p class="user-description"></p>
-            </div> 
-        </template>
-
-        <div class="buttons">
-
-        </div>
     </div> 
     </section>
+<!--JAVASCRIPT-->
     <script type="module" src="js/main.js"></script>
 
 </body>

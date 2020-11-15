@@ -15,6 +15,8 @@ import { fetchData } from "./modules/DataMiner.js";
             currentUserText[1].src = `images/${data[user].image}`;
             currentUserText[2].textContent = data[user].title;
             currentUserText[3].textContent = data[user].description;
+            currentUserText[4].textContent = data[user].reccomend;
+
 
             // add this new user to the view
             userSection.appendChild(currentUser);
