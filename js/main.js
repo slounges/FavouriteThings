@@ -1,4 +1,13 @@
+const splash = document.querySelector('.splash');
+
+document.addEventListener('DOMContentLoaded', (e)=>{
+    setTimeout(()=>{
+        splash.classList.add('display-none');
+    },5000);
+})
+
 import { fetchData } from "./modules/DataMiner.js";
+
 
 (() => {
     // this receives the data payload from our AJAX request, parses it (turns the returned JSON object back into a plain JavaScript object) and renders the data to our view (the markup in index.html)
