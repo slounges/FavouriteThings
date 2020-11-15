@@ -18,10 +18,9 @@ import { fetchData } from "./modules/DataMiner.js";
             let currentUser = userTemplate.cloneNode(true),
                 currentUserText = currentUser.querySelector('.user').children;
 
-            currentUserText[1].src = `images/${data[user].avatar}`;
-            currentUserText[2].textContent = data[user].name;
-            currentUserText[3].textContent = data[user].role;
-            currentUserText[4].textContent = data[user].nickname;
+            currentUserText[1].src = `images/${data[user].Image}`;
+            currentUserText[2].textContent = data[user].Title;
+            currentUserText[3].textContent = data[user].Description;
 
             // add this new user to the view
             userSection.appendChild(currentUser);
