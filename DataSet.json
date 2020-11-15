@@ -1,5 +1,5 @@
 {
-    "boy pablo":{"image":"boy_pablo.jpg", "title":"boy pablo", "description": "boy pablo is the indie pop music project of Chilean–Norwegian singer songwriter Nicolas Muñoz."},
-    "pocky":{"image":"pocky.jpg", "title":"pocky", "description": "pocky is a snack food consisting of chocolate-coated biscuit sticks. It was named after the Japanese onomatopoetic word pokkin."},
-    "mangas":{"image":"mangas.jpg", "title":"mangas", "description": "mangas are comics or graphic novels originating from Japan. The term manga is used in Japan to refer to both comics and cartooning."}
+    "boy pablo":{"image":"boy_pablo.jpg", "title":"boy pablo", "description": "the best indie-pop artist!", "reccomend": "Song rec: Feeling Lonely"},
+    "pocky":{"image":"pocky.jpg", "title":"pocky", "description": "my fav and probably best snack on earth...","reccomend":"Flavour rec: ~the strawberry~ "},
+    "mangas":{"image":"mangas.jpg", "title":"mangas", "description": "my fav form of literature ;-;", "reccomend":"Manga rec: Mob Psycho 100"}
 }
