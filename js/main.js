@@ -8,6 +8,11 @@ document.addEventListener('DOMContentLoaded', (e)=>{
 
 import { fetchData } from "./modules/DataMiner.js";
 
+let button = document.querySelector(".btn");
+button.addEventListener("click", () => {
+    console.log("Let's Go!");
+});
+
 
 (() => {
     // this receives the data payload from our AJAX request, parses it (turns the returned JSON object back into a plain JavaScript object) and renders the data to our view (the markup in index.html)

@@ -42,8 +42,38 @@
 }
 
 
+//Landing 
+.landing{
+    height: 100vh;
+    display: flex;
+    background-color: white;
+    color: black;
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
 
-//Title-Card-Wrapper:
+.btn{
+    text-decoration: none;
+    background-color: rgba(0, 179, 192, 0.377);
+    color: white;
+    border: black 3px solid;
+    border-radius: 30%;
+    padding: 10px 20px;
+    font-size: 12px;
+}  
+.btn:hover{
+        background-color: rgb(245, 220, 240);
+        color: black;
+    }
+    
+//Wrapper:
+#about{
+    height: 100vh;
+    align-items: center;
+}
 .wrapper{
     width: 350px;
     height: 600px;
@@ -106,17 +136,3 @@ div.dot1 {
     left: 50px;
 }
 
-
-.btn{
-    text-decoration: none;
-    background-color: gainsboro;
-    color: white;
-    border-radius: 10%;
-    padding: 5px;
-
-  
-}  
-.btn:hover{
-        background-color: beige;
-        color: black;
-    }
